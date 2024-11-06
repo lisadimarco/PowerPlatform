@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Corso.DataLayer/1.0.0": {
+        "dependencies": {
+          "Corso.Biz": "1.0.0"
+        },
+        "runtime": {
+          "Corso.DataLayer.dll": {}
+        }
+      },
+      "Corso.Biz/1.0.0": {
+        "runtime": {
+          "Corso.Biz.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Corso.DataLayer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Corso.Biz/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
